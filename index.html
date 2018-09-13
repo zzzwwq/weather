@@ -1,0 +1,372 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="js/rem.js"></script>
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/echarts.js"></script>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_807939_bw3tfg6dqwu.css">
+</head>
+<body>
+    <div class="header">
+        <span>上海</span>
+        <div class="audioBtn"><i class="iconfont icon-yuyin"></i></div>
+    </div>
+    <div class="screen">
+        <div class="aqi">
+            <span id="s">69</span><br>
+            <span id="x">良</span>
+        </div>
+        <h3><span id="tem">27</span></h3>
+        <h4><span id="cloud">多云</span></h4>
+        <h5><span id="wind">南风 2级</span></h5>
+    </div>
+    <div class="day">
+        <div class="today">
+            <span>今天</span>
+            <span id="day_tem">29/18</span>
+            <span id="d">多云</span>
+            <span><img src="img/0.png" alt=""></span>
+        </div>
+        <div class="tomorrow">
+            <span>明天</span>
+            <span id="tom_tem">29/18</span>
+            <span id="m">多云</span>
+            <span><img src="img/0.png" alt=""></span>
+        </div>
+    </div>
+    <div class="hours">
+        <div class="con">
+            <div class="box">
+                <div><span class="time">14</span>:00</div>
+                <img src="img/0.png" alt="">
+                <div><span class="tem1">28</span>°</div>
+            </div>
+            <div class="box">
+                <div><span class="time">14</span>:00</div>
+                <img src="img/0.png" alt="">
+                <div><span class="tem1">28</span>°</div>
+            </div>
+            <div class="box">
+                <div><span class="time">14</span>:00</div>
+                <img src="img/0.png" alt="">
+                <div><span class="tem1">28</span>°</div>
+            </div>
+            <div class="box">
+                <div><span class="time">14</span>:00</div>
+                <img src="img/0.png" alt="">
+                <div><span class="tem1">28</span>°</div>
+            </div>
+            <div class="box">
+                <div><span class="time">14</span>:00</div>
+                <img src="img/0.png" alt="">
+                <div><span class="tem1">28</span>°</div>
+            </div>
+            <div class="box">
+                <div><span class="time">14</span>:00</div>
+                <img src="img/0.png" alt="">
+                <div><span class="tem1">28</span>°</div>
+            </div>
+            <div class="box">
+                <div><span class="time">14</span>:00</div>
+                <img src="img/0.png" alt="">
+                <div><span class="tem1">28</span>°</div>
+            </div>
+            <div class="box">
+                <div><span class="time">14</span>:00</div>
+                <img src="img/0.png" alt="">
+                <div><span class="tem1">28</span>°</div>
+            </div>
+            <div class="box">
+                <div><span class="time">14</span>:00</div>
+                <img src="img/0.png" alt="">
+                <div><span class="tem1">28</span>°</div>
+            </div>
+            <div class="box">
+                <div><span class="time">14</span>:00</div>
+                <img src="img/0.png" alt="">
+                <div><span class="tem1">28</span>°</div>
+            </div>
+            <div class="box">
+                <div><span class="time">14</span>:00</div>
+                <img src="img/0.png" alt="">
+                <div><span class="tem1">28</span>°</div>
+            </div>
+            <div class="box">
+                <div><span class="time">14</span>:00</div>
+                <img src="img/0.png" alt="">
+                <div><span class="tem1">28</span>°</div>
+            </div>
+            <div class="box">
+                <div><span class="time">14</span>:00</div>
+                <img src="img/0.png" alt="">
+                <div><span class="tem1">28</span>°</div>
+            </div>
+            <div class="box">
+                <div><span class="time">14</span>:00</div>
+                <img src="img/0.png" alt="">
+                <div><span class="tem1">28</span>°</div>
+            </div>
+            <div class="box">
+                <div><span class="time">14</span>:00</div>
+                <img src="img/0.png" alt="">
+                <div><span class="tem1">28</span>°</div>
+            </div>
+            <div class="box">
+                <div><span class="time">14</span>:00</div>
+                <img src="img/0.png" alt="">
+                <div><span class="tem1">28</span>°</div>
+            </div>
+            <div class="box">
+                <div><span class="time">14</span>:00</div>
+                <img src="img/0.png" alt="">
+                <div><span class="tem1">28</span>°</div>
+            </div>
+            <div class="box">
+                <div><span class="time">14</span>:00</div>
+                <img src="img/0.png" alt="">
+                <div><span class="tem1">28</span>°</div>
+            </div>
+            <div class="box">
+                <div><span class="time">14</span>:00</div>
+                <img src="img/0.png" alt="">
+                <div><span class="tem1">28</span>°</div>
+            </div>
+            <div class="box">
+                <div><span class="time">14</span>:00</div>
+                <img src="img/0.png" alt="">
+                <div><span class="tem1">28</span>°</div>
+            </div>
+            <div class="box">
+                <div><span class="time">14</span>:00</div>
+                <img src="img/0.png" alt="">
+                <div><span class="tem1">28</span>°</div>
+            </div>
+            <div class="box">
+                <div><span class="time">14</span>:00</div>
+                <img src="img/0.png" alt="">
+                <div><span class="tem1">28</span>°</div>
+            </div>
+            <div class="box">
+                <div><span class="time">14</span>:00</div>
+                <img src="img/0.png" alt="">
+                <div><span class="tem1">28</span>°</div>
+            </div>
+            <div class="box">
+                <div><span class="time">14</span>:00</div>
+                <img src="img/0.png" alt="">
+                <div><span class="tem1">28</span>°</div>
+            </div>
+
+        </div>
+    </div>
+    <div class="weeks">
+        <div class="weekBox">
+            <div class="con1">
+                <div class="box1">
+                    <div><span class="week">星期一</span></div>
+                    <div><span class="date">9/13</span></div>
+                    <div  class="moreY"><span>多云</span></div>
+                    <img src="img/0.png" alt="">
+                    <div class="kong"></div>
+                    <img src="img/0.png" alt="">
+                    <div><span>多云</span></div>
+                    <div class="moreY"><span>西北风</span></div>
+                    <div><span>3级</span></div>
+                </div>
+                <div class="box1">
+                    <div><span class="week">星期一</span></div>
+                    <div><span class="date">9/13</span></div>
+                    <div  class="moreY"><span>多云</span></div>
+                    <img src="img/0.png" alt="">
+                    <div class="kong"></div>
+                    <img src="img/0.png" alt="">
+                    <div><span>多云</span></div>
+                    <div class="moreY"><span>西北风</span></div>
+                    <div><span>3级</span></div>
+                </div>
+                <div class="box1">
+                    <div><span class="week">星期一</span></div>
+                    <div><span class="date">9/13</span></div>
+                    <div  class="moreY"><span>多云</span></div>
+                    <img src="img/0.png" alt="">
+                    <div class="kong"></div>
+                    <img src="img/0.png" alt="">
+                    <div><span>多云</span></div>
+                    <div class="moreY"><span>西北风</span></div>
+                    <div><span>3级</span></div>
+                </div>
+                <div class="box1">
+                    <div><span class="week">星期一</span></div>
+                    <div><span class="date">9/13</span></div>
+                    <div  class="moreY"><span>多云</span></div>
+                    <img src="img/0.png" alt="">
+                    <div class="kong"></div>
+                    <img src="img/0.png" alt="">
+                    <div><span>多云</span></div>
+                    <div class="moreY"><span>西北风</span></div>
+                    <div><span>3级</span></div>
+                </div>
+                <div class="box1">
+                    <div><span class="week">星期一</span></div>
+                    <div><span class="date">9/13</span></div>
+                    <div  class="moreY"><span>多云</span></div>
+                    <img src="img/0.png" alt="">
+                    <div class="kong"></div>
+                    <img src="img/0.png" alt="">
+                    <div><span>多云</span></div>
+                    <div class="moreY"><span>西北风</span></div>
+                    <div><span>3级</span></div>
+                </div>
+                <div class="box1">
+                    <div><span class="week">星期一</span></div>
+                    <div><span class="date">9/13</span></div>
+                    <div  class="moreY"><span>多云</span></div>
+                    <img src="img/0.png" alt="">
+                    <div class="kong"></div>
+                    <img src="img/0.png" alt="">
+                    <div><span>多云</span></div>
+                    <div class="moreY"><span>西北风</span></div>
+                    <div><span>3级</span></div>
+                </div>
+                <div class="box1">
+                    <div><span class="week">星期一</span></div>
+                    <div><span class="date">9/13</span></div>
+                    <div  class="moreY"><span>多云</span></div>
+                    <img src="img/0.png" alt="">
+                    <div class="kong"></div>
+                    <img src="img/0.png" alt="">
+                    <div><span>多云</span></div>
+                    <div class="moreY"><span>西北风</span></div>
+                    <div><span>3级</span></div>
+                </div>
+                <div class="box1">
+                    <div><span class="week">星期一</span></div>
+                    <div><span class="date">9/13</span></div>
+                    <div  class="moreY"><span>多云</span></div>
+                    <img src="img/0.png" alt="">
+                    <div class="kong"></div>
+                    <img src="img/0.png" alt="">
+                    <div><span>多云</span></div>
+                    <div class="moreY"><span>西北风</span></div>
+                    <div><span>3级</span></div>
+                </div>
+                <div class="box1">
+                    <div><span class="week">星期一</span></div>
+                    <div><span class="date">9/13</span></div>
+                    <div  class="moreY"><span>多云</span></div>
+                    <img src="img/0.png" alt="">
+                    <div class="kong"></div>
+                    <img src="img/0.png" alt="">
+                    <div><span>多云</span></div>
+                    <div class="moreY"><span>西北风</span></div>
+                    <div><span>3级</span></div>
+                </div>
+                <div class="box1">
+                    <div><span class="week">星期一</span></div>
+                    <div><span class="date">9/13</span></div>
+                    <div  class="moreY"><span>多云</span></div>
+                    <img src="img/0.png" alt="">
+                    <div class="kong"></div>
+                    <img src="img/0.png" alt="">
+                    <div><span>多云</span></div>
+                    <div class="moreY"><span>西北风</span></div>
+                    <div><span>3级</span></div>
+                </div>
+                <div class="box1">
+                    <div><span class="week">星期一</span></div>
+                    <div><span class="date">9/13</span></div>
+                    <div  class="moreY"><span>多云</span></div>
+                    <img src="img/0.png" alt="">
+                    <div class="kong"></div>
+                    <img src="img/0.png" alt="">
+                    <div><span>多云</span></div>
+                    <div class="moreY"><span>西北风</span></div>
+                    <div><span>3级</span></div>
+                </div>
+                <div class="box1">
+                    <div><span class="week">星期一</span></div>
+                    <div><span class="date">9/13</span></div>
+                    <div  class="moreY"><span>多云</span></div>
+                    <img src="img/0.png" alt="">
+                    <div class="kong"></div>
+                    <img src="img/0.png" alt="">
+                    <div><span>多云</span></div>
+                    <div class="moreY"><span>西北风</span></div>
+                    <div><span>3级</span></div>
+                </div>
+                <div class="box1">
+                    <div><span class="week">星期一</span></div>
+                    <div><span class="date">9/13</span></div>
+                    <div  class="moreY"><span>多云</span></div>
+                    <img src="img/0.png" alt="">
+                    <div class="kong"></div>
+                    <img src="img/0.png" alt="">
+                    <div><span>多云</span></div>
+                    <div class="moreY"><span>西北风</span></div>
+                    <div><span>3级</span></div>
+                </div>
+                <div class="box1">
+                    <div><span class="week">星期一</span></div>
+                    <div><span class="date">9/13</span></div>
+                    <div  class="moreY"><span>多云</span></div>
+                    <img src="img/0.png" alt="">
+                    <div class="kong"></div>
+                    <img src="img/0.png" alt="">
+                    <div><span>多云</span></div>
+                    <div class="moreY"><span>西北风</span></div>
+                    <div><span>3级</span></div>
+                </div>
+                <div class="box1">
+                    <div><span class="week">星期一</span></div>
+                    <div><span class="date">9/13</span></div>
+                    <div  class="moreY"><span>多云</span></div>
+                    <img src="img/0.png" alt="">
+                    <div class="kong"></div>
+                    <img src="img/0.png" alt="">
+                    <div><span>多云</span></div>
+                    <div class="moreY"><span>西北风</span></div>
+                    <div><span>3级</span></div>
+                </div>
+                <div class="box1">
+                    <div><span class="week">星期一</span></div>
+                    <div><span class="date">9/13</span></div>
+                    <div  class="moreY"><span>多云</span></div>
+                    <img src="img/0.png" alt="">
+                    <div class="kong"></div>
+                    <img src="img/0.png" alt="">
+                    <div><span>多云</span></div>
+                    <div class="moreY"><span>西北风</span></div>
+                    <div><span>3级</span></div>
+                </div>
+            </div>
+            <div class="chart"></div>
+        </div>
+    </div>
+    <div class="cityBox">
+        <div class="search">
+            <input type="text" placeholder="搜索地区">
+            <button>取消</button>
+        </div>
+    </div>
+</body>
+</html>
+<script>
+    // 同源策略
+    // 解决方式：jsonp
+    //         服务器代理
+    // $.ajax({
+    //    url:"https://www.toutiao.com/stream/widget/local_weather/city/",
+    //    type:"get",
+    //    dataType:"jsonp",
+    //    success:function(e){
+    //        console.log(e);
+    //    }
+    // })
+</script>
