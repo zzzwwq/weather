@@ -38,6 +38,7 @@ $(function(){
     })
     cityBox.on("touchstart",function(event){
         if (event.target.className=="city"){
+
             let city=event.target.innerText;
             $.ajax({
                 url:"https://www.toutiao.com/stream/widget/local_weather/data/",
